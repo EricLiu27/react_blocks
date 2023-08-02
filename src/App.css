@@ -1,6 +1,58 @@
 .App {
   text-align: center;
+  background-color: #dddddd;
 }
+
+
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.header {
+  background-color: #6aa84f;
+  margin: 0 auto;
+  width: 100vw;
+  height: 25vh;
+  border: 2px solid #282c34;
+}
+
+.navigation {
+  background-color: #6fa8dc;
+  border: 2px solid #282c34;
+  width: 15vw;
+  height: 50vh;
+}
+
+.main {
+  background-color: #e06666;
+  width: 85vw;
+  height: 70vh;
+  border: 2px solid #282c34;
+}
+
+.subcontents {
+  background-color: #ffd966;
+  width: 20vw;
+  height: 45vh;
+  border: 2px solid #282c34;
+}
+
+.advertisement {
+  background-color: #b4a7d6;
+  width: 80vw;
+  height: 23vh;
+  border: 2px solid #282c34;
+}
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -32,6 +84,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
